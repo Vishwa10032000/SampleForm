@@ -1,0 +1,59 @@
+
+
+body{
+  background: #f5f5f5 !important;
+}
+
+
+.form{
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #E5E5E5;
+  border-radius: 20px;
+}
+
+.form-title{
+  color: #333333;
+  font-size: 32px;
+}
+
+.form-button{
+  background: #333333;
+  border: none;
+  color: #ffffff;
+  padding: 8px 15px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.form-button:hover{
+  background: #222222;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  /* margin-bottom: 15px; */
+  font-size: 16px;
+  border-radius: 50px;
+  background: transparent;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Hover state */
+.form-input:hover {
+  border-color: #333333; /* Change border color on hover */
+  box-shadow: 0 0 5px #333333; /* Add subtle shadow */
+}
+
+/* Focus state */
+.form-input:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #333333; /* Change border color */
+  box-shadow: 0 0 8px #333333; /* Glowing effect */
+}
