@@ -1,6 +1,6 @@
 
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom'
 import Form from './pages/Form'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -8,12 +8,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path='/' element={<Form/>} />
     </Routes>
     
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
